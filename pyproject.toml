@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "avito-parser"
+version = "0.1.0"
+description = ""
+authors = ["al-ov73 <klever1987@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+undetected-chromedriver = "^3.5.4"
+bs4 = "^0.0.1"
+pandas = "^2.1.4"
+lxml = "^5.1.0"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
